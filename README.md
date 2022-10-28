@@ -74,9 +74,8 @@ Conforme descrito em \citet*{Molnar}, a ideia é bastante intuitiva. Primeiro, e
 
 Matematicamente, modelos explicativos locais com restrição de interpretabilidade podem ser expressos da seguinte forma:
 
-\begin{equation}
-explic(x) = \underset{g \ \in \ G}{argmin} \ L(f,g,\pi_(x) +\omega(g)
-\end{equation}
+
+$explic(x) = \underset{g \ \in \ G}{argmin} \ L(f,g,\pi_(x) +\omega(g)$
 
 Onde $L$ é a função de custo, $x$ é a instância local, $f$ é o classificador original, $g$ é o modelo explicativo,  G é a família de possíveis explicações e $\pi_(x)$ é uma métrica de distância da amostra original para a amostra gerada pelo LIME.
 
